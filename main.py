@@ -6,4 +6,4 @@ def towerofhanoi (n,a,b,c):
     print(f"move disk {n} from rod {a} to rod {c}\n")
     towerofhanoi(n-1,b,a,c)
     
-towerofhanoi(3,"a","b","c")
+towerofhanoi(3,"a","b","c") 
